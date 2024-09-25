@@ -1,0 +1,25 @@
+h1{
+    color: rgb(255, 238, 0);
+    font-size: 45px ;
+    text-decoration: dotted overline rgb(111, 111, 111);
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: normal;
+    
+}
+header{
+    background-color: rgb(255, 92, 173);
+    border: 5px dotted red;
+    margin: auto;
+
+}
+p{
+    color: brown;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 100;
+}
+nav{
+    color: rgb(0, 100, 0);
+    font size: 30;
+}
