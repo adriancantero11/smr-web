@@ -1,0 +1,27 @@
+table,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th{
+    background-color: red;
+}
+caption{
+    color: blue;
+}
+table{
+    width: 80%;
+    margin: auto;
+}
+th.HOR{
+    background-color: blue;
+    color: white;
+}
+td.ver{
+    background-color: green;
+}
+td.yell{
+    background-color: yellow;
+}
+td.red{
+    background-color: rgb(132, 0, 255);
+}

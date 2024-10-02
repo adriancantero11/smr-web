@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mi primera tabla</title>
+    <link rel="stylesheet" href="tabla.css">
+</head>
+<body>
+    <table>
+        <caption>Alumnos matriculador por año</caption>
+        <thead>
+        <tr>
+            <th scope="col"></th>
+            <th scope="col">2001</th>
+            <th scope="col">2002</th>
+            <th scope="col">2003</th>
+            <th scope="col">2004</th>
+        </tr>
+        </thead>
+        <tfoot>
+            <th scope="row" class="HOR">TOTAL</th>
+            <td scope="row">1233</td>
+            <td class="red" colspan="3"scope="row">4545</td>
+            
+        </tfoot>
+        <tbody>
+        <tr>
+            <th rowspan="3" scope="row"class="HOR">ALUMNOS</th>
+            <td class="ver" rowspan="2" scope="row">34</td>
+            <td colspan="2" scope="row">32</td>
+            <td class="yell" rowspan="3" scope="row">65</td>
+        </tr>
+        <tr>
+            <td colspan="2"scope="row">87</td>
+        </tr>
+        </tr>
+            <td scope="row">3765</td>
+            <td scope="row">565</td>
+            <td scope="row">32</td>
+        </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
