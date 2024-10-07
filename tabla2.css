@@ -1,0 +1,55 @@
+table{
+    width: 20%;
+    margin: auto;
+
+}
+table,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td{
+    text-align: center;
+}
+td.re{
+    background-color: red;
+}
+td.re:hover{
+    background-color: rebeccapurple;
+    color: blue;
+}
+td.re:active{
+    color: rebeccapurple;
+}
+td.blu{
+    background-color: blue;
+}
+td.yell{
+    background-color: yellow;
+}
+td.bla{
+    background-color: black;
+    color: white;
+}
+td.mor{
+    background-color: blueviolet;
+}
+td.bro{
+    background-color: burlywood;
+}
+td.bro:hover{
+    background-color: aqua;
+    color: black;
+}
+td.bro:active{
+    color: aqua;
+}
+td.gren{
+    background-color: green;
+}
+td.gren:hover{
+    color: green;
+    background-color: black;
+}
+td.gren:active{
+    color: black;
+}
