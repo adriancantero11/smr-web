@@ -1,0 +1,33 @@
+body{
+    width: 70%;
+    margin: auto;
+    border: 1px solid black;
+}
+h1{
+    font-size: 1.2em;
+    background-color: black;
+    color: white;
+    margin: 0%;
+    padding: 10px 15px ;
+}
+ol{
+    padding:0% ;
+    border-bottom: 10px solid black;
+    margin: 0;
+}
+li{
+    background-color: red;
+    display: inline-block;
+    width: 20%; 
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+    
+    
+}
+main{
+    padding: 10px;
+}
+p{
+    text-align: justify;
+}
